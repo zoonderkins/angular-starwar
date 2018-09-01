@@ -1,0 +1,27 @@
+<div>
+  <ul class="nav nav-tabs">
+    <li role="presentation" >
+      <a routerLink="/characters/all">
+       All</a></li>
+    <li role="presentation" >
+      <a routerLink="/characters/light">
+        Light</a></li>
+    <li role="presentation" >
+      <a routerLink="/characters/dark">
+        Dark</a></li>
+  </ul>
+  <router-outlet></router-outlet>
+</div>
+
+<!-- <li role="presentation" [ngClass]="{active: chosenList === 'all'}">
+    <a (click)="onChoose('all')"
+    style="cursor: pointer">
+     All</a></li>
+  <li role="presentation" [ngClass]="{active: chosenList === 'light'}">
+    <a (click)="onChoose('light')"
+    style="cursor: pointer">
+      Light</a></li>
+  <li role="presentation" [ngClass]="{active: chosenList === 'dark'}">
+    <a (click)="onChoose('dark')"
+    style="cursor: pointer">
+      Dark</a></li> -->
