@@ -2,6 +2,8 @@
 
 Demo: [Demo Link](https://angular-starwar-anmdpdwerx.now.sh/)
 
+![Demo picture](https://raw.githubusercontent.com/ookangzheng/angular-starwar/master/Demo.gif)
+
 # AngularEssentials
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
